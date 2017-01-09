@@ -20,7 +20,8 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 </ul>
 
 <h5>Make the necessary changes:</h5>
-Add maigun domain and mailgun secret-key for mail function in .env
-In App/Config/services.php supply facebook app id and secret to use login with facebook feature
-
+<ul>
+<li>Add maigun domain and mailgun secret-key for mail function in .env</li>
+<li>In App/Config/services.php supply facebook app id and secret to use login with facebook feature</li>
+</ul>
 Enjoy!
