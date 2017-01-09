@@ -7,15 +7,17 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 
 Installation
 
-extract the zip file
-cd projectname
-composer install
-php artisan key:generate
-Create a database and inform .env
-php artisan migrate --seed to create and populate tables
-Inform config/mail.php for email sends
-php artisan vendor:publish to publish filemanager
-php artisan serve to start the app on http://localhost:8000/
+<ul>
+<li>extract the zip file</li>
+<li>cd projectname</li>
+<li>composer install</li>
+<li>php artisan key:generate</li>
+<li>Create a database and inform .env</li>
+<li>php artisan migrate --seed to create and populate tables</li>
+<li>Inform config/mail.php for email sends</li>
+<li>php artisan vendor:publish to publish filemanager</li>
+<li>php artisan serve to start the app on http://localhost:8000/</li>
+</ul>
 
 <strong>Make the necessary changes:</strong>
 Add maigun domain and mailgun secret-key for mail function in .env
