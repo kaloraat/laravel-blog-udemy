@@ -11,6 +11,7 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 <li>extract the zip file</li>
 <li>cd projectname</li>
 <li>composer install</li>
+<li><small>If you get the error that says: Base table or view not found: 1146 Table 'newitbooks.categories' - Comment out all your routes! You can uncomment later.</small></li>
 <li>php artisan key:generate</li>
 <li>Create a database and inform .env</li>
 <li>php artisan migrate --seed to create and populate tables</li>
