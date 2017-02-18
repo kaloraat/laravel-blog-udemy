@@ -17,6 +17,7 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 <li>php artisan migrate --seed to create and populate tables</li>
 <li>Inform config/mail.php for email sends</li>
 <li>php artisan vendor:publish to publish filemanager</li>
+<li>Run vagrant provision command to reprovision your machine - if you are using Homestead</li>
 <li>php artisan serve to start the app on http://localhost:8000/</li>
 </ul>
 
