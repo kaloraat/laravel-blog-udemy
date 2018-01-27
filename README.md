@@ -10,7 +10,7 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 <ul>
 <li>extract the zip file</li>
 <li>cd projectname</li>
-<li>composer install</li>
+<li>composer install - If you are not using Homestead you will get this error - Access denied for user 'homestead'@'localhost'. That is because it has DB_USERNAME and DB_PASSWORD set to homestead and secret (default) Go to .env file and update the DB_USERNAME and DB_PASSWORD according to your local setting</li>
 <li><small>If you get the error that says: Base table or view not found: 1146 Table 'newitbooks.categories' - Comment out all your routes! You can uncomment later.</small></li>
 <li>php artisan key:generate</li>
 <li>Create a database and inform .env</li>
