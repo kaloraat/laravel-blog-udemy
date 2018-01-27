@@ -9,17 +9,20 @@ https://www.udemy.com/learn-laravel-php-framework-building-multi-user-seo-blog-a
 
 <ul>
 <li>extract the zip file</li>
+  <li>Create a database, name it newitbooks and inform .env</li>
 <li>cd projectname</li>
 <li>composer install - If you are not using Homestead you will get this error - Access denied for user 'homestead'@'localhost'. That is because it has DB_USERNAME and DB_PASSWORD set to homestead and secret (default) Go to .env file and update the DB_USERNAME and DB_PASSWORD according to your local setting</li>
-<li><small>If you get the error that says: Base table or view not found: 1146 Table 'newitbooks.categories' - Comment out all your routes! You can uncomment later.</small></li>
+  <li>If you are using valet, your username might be root and no password </li>
+<li><small>If you get the error that says: Base table or view not found: 1146 Table 'newitbooks.categories' - Comment out all your routes! You can uncomment when all the following setup is done.</small></li>
 <li>php artisan key:generate</li>
-<li>Create a database and inform .env</li>
 <li>php artisan migrate --seed to create and populate tables</li>
 <li>Inform config/mail.php for email sends</li>
 <li>php artisan vendor:publish to publish filemanager</li>
 <li>For users with Homestead: Map your site in homestead.yaml file and add the url to your host file - The steps are similar to what is shown in the first section of this course</li>
 <li>Run vagrant provision command to reprovision your machine - if you are using Homestead</li>
+  <li>Uncomment or paste the routes back to routes/web.php</li>
 <li>php artisan serve to start the app on http://localhost:8000/</li>
+  <li>valet open to open site if using valet</li>
 </ul>
 
 <h5>Make the necessary changes:</h5>
